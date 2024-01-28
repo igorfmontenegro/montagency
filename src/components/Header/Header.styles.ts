@@ -26,5 +26,10 @@ export const Content = styled.div`
   a {
     text-decoration: none;
     color: #000;
+
+    :hover {
+      color: #35557b;
+      transition: 0.3s;
+    }
   }
 `

@@ -21,7 +21,7 @@ export function HomePage() {
       </Content>
 
       <div>
-        <img src={Home} width={'500px'} />
+        <img src={Home} width={'400px'} />
       </div>
     </Container>
   )
