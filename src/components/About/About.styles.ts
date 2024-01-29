@@ -20,7 +20,7 @@ export const Content = styled.div`
   }
 
   p {
-    max-width: 700px;
+    max-width: 600px;
     margin: 20px 20px 20px 0;
   }
 
