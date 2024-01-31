@@ -1,9 +1,9 @@
-import { Container } from "./Card.styles";
+import { Container, Content } from "./Card.styles";
 
 export function Card(){
     return(
         <Container>
-            Testando
+            <Content></Content>
         </Container>
     )
 }

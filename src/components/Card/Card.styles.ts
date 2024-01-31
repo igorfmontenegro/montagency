@@ -5,3 +5,7 @@ width: 200px;
 heigth: 300px
 
 `
+
+export const Content = styled.div`
+    background-color: #fafafa;
+`
