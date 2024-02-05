@@ -1,6 +1,6 @@
-import { Button } from '../Button'
+import { Button } from '../../Button'
 import { Container, Content } from './HomePage.styles'
-import Home from '../../assets/home.png'
+import Home from '../../../assets/home.png'
 
 export function HomePage() {
   return (

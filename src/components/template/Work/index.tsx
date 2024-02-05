@@ -1,4 +1,4 @@
-import { Subtitle } from '../Subtitle'
+import { Subtitle } from '../../Subtitle'
 import {
   ButtonsContainer,
   Container,
@@ -7,7 +7,7 @@ import {
   PhotosContainer,
   SelectedOption
 } from './Work.styles'
-import { Portfolio } from '../Portfolio'
+import { Portfolio } from '../../Portfolio'
 import { useState } from 'react'
 
 export function Work() {
@@ -22,7 +22,7 @@ export function Work() {
   return (
     <Container>
       <Content>
-        <Subtitle title="WORK" subtitle="Conheça Nosso Portifólio" />
+        <Subtitle title="TRABALHO" subtitle="Conheça Nosso Portifólio" />
 
         <ButtonsContainer>
           <SelectedOption

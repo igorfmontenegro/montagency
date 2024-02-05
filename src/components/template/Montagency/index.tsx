@@ -1,4 +1,5 @@
 import { About } from '../About'
+import { BestServices } from '../BestServices'
 import { Header } from '../Header'
 import { HomePage } from '../HomePage'
 import { Process } from '../Process'
@@ -12,6 +13,7 @@ export function Montagency() {
       <About />
       <Process />
       <Work />
+      <BestServices />
     </>
   )
 }

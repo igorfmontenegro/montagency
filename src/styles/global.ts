@@ -10,7 +10,6 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 #root{
-    height: 260vh;
     overflow-x: hidden;
     font-family: "Montserrat", sans-serif;
 }

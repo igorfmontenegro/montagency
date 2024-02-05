@@ -10,7 +10,7 @@ interface ButtonProps {
 
 export const Container = styled.section`
   margin-top: 30px;
-  height: 50vh;
+  height: 70vh;
 `
 export const Content = styled.div`
   max-width: 1540px;

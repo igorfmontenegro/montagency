@@ -1,5 +1,5 @@
-import { Card } from '../Card'
-import { Subtitle } from '../Subtitle'
+import { Card } from '../../Card'
+import { Subtitle } from '../../Subtitle'
 import { CardContainer, Container, Content } from './Process.styles'
 
 import { IoChatbubbles, IoSearch } from 'react-icons/io5'

@@ -1,4 +1,4 @@
-import { Montagency } from './components/Montagency'
+import { Montagency } from './components/template/Montagency'
 
 function App() {
   return <Montagency />
