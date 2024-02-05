@@ -1,0 +1,20 @@
+export const Portfolio = [
+  { id: 'brasil', image: 'brasil.jpg', category: 'país' },
+  { id: 'vuejs', image: 'vuejs.png', category: 'tecnologia' },
+  { id: 'eua', image: 'eua.jpg', category: 'país' },
+  { id: 'nodejs', image: 'nodejs.png', category: 'tecnologia' },
+  { id: 'inglaterra', image: 'inglaterra.jpg', category: 'país' },
+  { id: 'reactjs', image: 'reactjs.png', category: 'tecnologia' },
+  { id: 'canada', image: 'canada.jpg', category: 'país' },
+  { id: 'mexico', image: 'mexico.jpg', category: 'país' },
+  { id: 'espanha', image: 'espanha.jpg', category: 'país' },
+  { id: 'javascript', image: 'javascript.png', category: 'tecnologia' },
+  { id: 'tailwind', image: 'tailwind.png', category: 'tecnologia' },
+  { id: 'typescript', image: 'typescript.png', category: 'tecnologia' },
+  { id: 'github', image: 'github.png', category: 'rede' },
+  { id: 'facebook', image: 'facebook.png', category: 'rede' },
+  { id: 'linkedin', image: 'linkedin.png', category: 'rede' },
+  { id: 'instagram', image: 'instagram.png', category: 'rede' },
+  { id: 'reddit', image: 'reddit.png', category: 'rede' },
+  { id: 'twitter', image: 'twitter.png', category: 'rede' }
+]

@@ -4,6 +4,10 @@ interface LotPhotoProps {
   image: string
 }
 
+interface ButtonProps {
+  selected: boolean
+}
+
 export const Container = styled.section`
   margin-top: 30px;
   height: 50vh;
@@ -11,6 +15,21 @@ export const Container = styled.section`
 export const Content = styled.div`
   max-width: 1540px;
   margin: auto;
+`
+
+export const ButtonsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
+export const SelectedOption = styled.button<ButtonProps>`
+  border: none;
+  color: ${(props) => (props.selected ? '#35557b' : '#000')};
+  font-weight: ${(props) => (props.selected ? '700' : '500')};
+  background-color: #fff;
+  margin: 0 20px 20px;
+  font-size: 0.9em;
 `
 
 export const PhotosContainer = styled.div`

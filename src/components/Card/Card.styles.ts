@@ -28,6 +28,10 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   align-items: center;
 
+  &:hover {
+    transform: scale(1.1);
+  }
+
   svg {
     font-size: 55px;
   }
