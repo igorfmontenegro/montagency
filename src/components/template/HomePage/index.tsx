@@ -15,8 +15,8 @@ export function HomePage() {
         </p>
 
         <div>
-          <Button text="Get Started" type="default" />
-          <Button text="Free Trial " type="inverse" />
+          <Button text="Comece Agora" type="default" />
+          <Button text="Teste Grátis" type="inverse" />
         </div>
       </Content>
 

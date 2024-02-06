@@ -22,7 +22,7 @@ export function Work() {
   return (
     <Container>
       <Content>
-        <Subtitle title="TRABALHO" subtitle="Conheça Nosso Portifólio" />
+        <Subtitle title="TRABALHO" subtitle="Conheça Nosso Portfólio" />
 
         <ButtonsContainer>
           <SelectedOption

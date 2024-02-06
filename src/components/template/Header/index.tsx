@@ -17,7 +17,7 @@ export function Header() {
               <li> Portfólio </li>
             </a>
             <a href="">
-              <li> Services </li>
+              <li> Serviços </li>
             </a>
             <a href="">
               <li> News </li>
