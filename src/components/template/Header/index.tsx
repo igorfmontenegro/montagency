@@ -1,10 +1,14 @@
 import { Container, Content } from './Header.styles'
 
+import Logo from '../../../assets/MontAgency.png'
+
 export function Header() {
   return (
     <Container>
       <Content>
-        <div> Logo </div>
+        <div>
+          <img src={Logo} />
+        </div>
         <nav>
           <ul>
             <a href="">
@@ -20,7 +24,7 @@ export function Header() {
               <li> Serviços </li>
             </a>
             <a href="">
-              <li> News </li>
+              <li> Contato </li>
             </a>
           </ul>
         </nav>

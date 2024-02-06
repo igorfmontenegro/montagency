@@ -10,6 +10,8 @@ import {
   Right
 } from './Contact.styles'
 
+import Logo from '../../../assets/MontAgency.png'
+
 export function Contact() {
   return (
     <Container>
@@ -21,6 +23,8 @@ export function Contact() {
             <h2>
               Evolua. <br /> Cada. <br /> Vez. <br /> Mais.
             </h2>
+
+            <img src={Logo} />
           </Left>
           <Right>
             <Header>

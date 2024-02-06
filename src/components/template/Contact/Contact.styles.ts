@@ -19,6 +19,7 @@ export const BoxContact = styled.div`
 `
 
 export const Left = styled.div`
+  position: relative;
   width: 400px;
   height: 450px;
   background-color: #fafafa;
@@ -27,6 +28,14 @@ export const Left = styled.div`
   h2 {
     margin: 100px 40px 40px 40px;
     font-size: 3em;
+  }
+
+  img {
+    width: 80px;
+
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
   }
 `
 

@@ -14,6 +14,10 @@ export const Content = styled.div`
 
   font-weight: 600;
 
+  img {
+    width: 100px;
+  }
+
   ul {
     list-style-type: none;
   }
